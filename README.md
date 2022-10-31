@@ -1,21 +1,26 @@
-# learnweb3
+# Web3 NFT Sharing Session
 
-useing ganache for local testing net? https://www.npmjs.com/package/ganache
+This Project is for internal sharing seesion on NFT development.
 
-run 'npm run ganache'
+# Steps
+### npm install in project root path
+This will install [‘ganache’](https://www.npmjs.com/package/ganache) for local testing node and [‘@openzeppelin/contracts'](https://www.openzeppelin.com/) for solidity lib.
 
-## npm install in main forlder
+### Prepare you testing env.
+Metamask
+Any testing net (ex. ganache, 'npm start ganache')
 
-## create the testing net
-fidcoin
-ganache --> npm start ganache
+### Create your smart contract
+In 'contracts' folder, we have two sample contract file.
 
-# vscode extensions
-solidity
-Ethereum Remix 
-    Run & Deploy
-    choose net and account
-    compile
-    deploy
+### Compile&Deploy your contracts
+You can choose remix, vscode&extensions or any available way.
 
-## npm install in client-app forder
+### Start the testing client web app.
+Run 'npm install' in client-app forder. It is created by vite and Vue3.
+
+Run 'npm run dev' can start the dev env with auto watch.
+
+## Vscode extensions
+1.solidity
+2.Ethereum Remix 
